@@ -1,0 +1,9 @@
+<h6>Component A</h6>
+<div>{{counter}}</div>
+<div>
+  <ul>
+    <li *ngFor="let user of filteredUsers">{{user.name}}</li>
+  </ul>
+
+<!-- <input [(ngModel)]="searchTerm" (ngModelChange)="filterUsers()" placeholder="Search users..."> -->
+<input (input)="searchTerm = $event.target.value; filterUsers()" placeholder="Search users...">

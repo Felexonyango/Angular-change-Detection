@@ -1,0 +1,103 @@
+@import './styles.colors.scss';
+
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-sibasi-primary {
+  color: #fff;
+  background-color: $sibasi-primary;
+  border-color: $sibasi-primary;
+
+  &.btn:hover {
+    border-color: $sibasi-primary;
+    // filter: brightness(0.85);
+    color: $sibasi-primary;
+  }
+}
+
+.btn-sibasi-secondary {
+  color: #fff;
+  background-color: $sibasi-secondary;
+  border-color: $sibasi-secondary;
+
+  &.btn:hover {
+    border-color: $sibasi-secondary;
+    // filter: brightness(0.85);
+    color: $sibasi-secondary;
+  }
+}
+
+.sibasi-primary {
+  color: $sibasi-primary;
+}
+
+.sibasi-secondary {
+  color: $sibasi-secondary;
+}
+
+.sibasi-success {
+  color: $sibasi-success;
+}
+
+.sibasi-success-light {
+  color: $sibasi-success-light;
+}
+
+.bg-sibasi-primary {
+  background-color: $sibasi-primary;
+  color: #fff;
+}
+
+.bg-sibasi-secondary {
+  background-color: $sibasi-secondary;
+  color: #fff;
+}
+
+.bg-sibasi-success {
+  background-color: $sibasi-success-light;
+  color: $sibasi-success;
+}
+.bg-sibasi-primary-light {
+  background-color: $sibasi-primary-light;
+  color: $sibasi-primary;
+}
+.bg-sibasi-success-light {
+  background-color: $sibasi-success-light;
+  color: $sibasi-success;
+}
+.bg-sibasi-grey {
+  background-color: $sibasi-grey;
+  color: $sibasi-secondary;
+}
+.border-sibasi-primary {
+  background-color: $sibasi-primary !important;
+}
+
+.home-body {
+  width: 90% !important;
+  // margin-top: -6rem !important;
+}
+
+.complete-check {
+  color: $sibasi-primary;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: -15px;
+}
+
+.input-container {
+  width: 100%;
+  padding: 2rem;
+  text-align: left;
+}
+
+.progress-bar {
+  overflow: revert !important;
+}
+
+.progress {
+  background-color: $sibasi-secondary;
+
+}
